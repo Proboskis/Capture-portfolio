@@ -37,7 +37,7 @@ const Work = styled.div`
     min-height: 100vh;
     overflow: hidden;
     padding: 10rem 5rem;
-    background: white;
+    /*background: white;*/
     h2 {
         padding: 1rem 0rem;
     }
