@@ -22,7 +22,7 @@ const OurWork = () => {
                 <motion.div variants={lineAnimation} className="line">&nbsp;</motion.div>
                 <Link to="the-athlete">
                     <Hide>
-                        <motion.img variants={photoAnimation} src={athlete} alt="athlete"/>
+                        <motion.img variants={photoAnimation} src={athlete} alt="athlete" />
                     </Hide>
                 </Link>
             </Movie>
@@ -30,14 +30,14 @@ const OurWork = () => {
                 <h2>The Racer</h2>
                 <div className="line">&nbsp;</div>
                 <Link to="the-racer">
-                    <img src={theracer} alt="racer"/>
+                    <img src={theracer} alt="racer" />
                 </Link>
             </Movie>
             <Movie>
                 <h2>Good Times</h2>
                 <div className="line">&nbsp;</div>
                 <Link to="good-times">
-                    <img src={goodtimes} alt="goodtimes"/>
+                    <img src={goodtimes} alt="goodtimes" />
                 </Link>
             </Movie>
         </Work>
